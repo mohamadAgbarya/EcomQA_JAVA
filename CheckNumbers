@@ -1,0 +1,22 @@
+package homeTasks;
+
+import java.util.Scanner;
+
+public class CheckNumbers {
+    static Scanner sc = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        boolean flag = false ;
+        System.out.println("enter a number");
+        int num = sc.nextInt() ;
+        if(num%2==0){
+            System.out.println("even number");
+            flag = true ;
+            System.out.println(flag);
+        }
+        else {
+            System.out.println("odd number");
+            System.out.println(flag);
+        }
+    }
+}
